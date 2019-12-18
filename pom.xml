@@ -18,5 +18,22 @@
 		</plugin>
 		
 	</plugins>
-  </build>		   
+</build>	
+
+<scm>
+
+
+	<connection>scm:git:git@github.com:frenleyDevops/Automation.git</connection>
+
+
+<developerConnection>scm:git:git@github.com:frenleyDevops/Automation.git</developerConnection>
+
+
+<tag>HEAD</tag>
+
+
+<url>https://github.com/frenleyDevops/Automation</url>
+
+
+</scm>
 </project>
