@@ -3,4 +3,5 @@
    <groupId>Automation.Demo</groupId>
    <artifactId>AutomationDemo</artifactId>
    <version>1</version>
+   <package>war</package>
 </project>
