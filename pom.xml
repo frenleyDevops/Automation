@@ -13,8 +13,5 @@
            <outputDirectory>${project.build.directory}/</outputDirectory>
            <finalName>${project.artifactId}-${project.version}</finalName>
 	   <sourceDirectory>${project.basedir}/</sourceDirectory>
-           <reporting>
-    		<outputDirectory>${project.build.directory}/</outputDirectory>
-  	   </reporting>
    </build>
 </project>
