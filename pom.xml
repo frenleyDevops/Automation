@@ -9,9 +9,22 @@
    <packaging>war</packaging>
    <url>http://localhost:9191/AutomationDemo</url>
    <build>
+	   <plugins>
+
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-war-plugin</artifactId>
+			<version>2.6</version>
+			<configuration>
+				<failOnMissingWebXml>false</failOnMissingWebXml>
+			</configuration>
+		</plugin>
+
+	</plugins>
 	   <directory>${project.basedir}/target</directory>
            <outputDirectory>${project.build.directory}/</outputDirectory>
            <finalName>${project.artifactId}-${project.version}</finalName>
 	   <sourceDirectory>${project.basedir}/</sourceDirectory>
    </build>
+
 </project>
