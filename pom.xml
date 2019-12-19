@@ -71,10 +71,14 @@
       </execution>
    </executions>
 </plugin>
-
-
-
         </plugins>
     </build>
+<repositories>
+        <repository>
+              <id>DemoId</id>
+              <name>DemoApp</name>
+              <url>https://github.com/frenleyDevops/Automation</url>
+        </repository>
+  </repositories>
 
 </project>
