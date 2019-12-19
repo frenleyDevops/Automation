@@ -15,6 +15,9 @@
 			<version>2.6</version>
 			<configuration>
 				<failOnMissingWebXml>false</failOnMissingWebXml>
+		   		          <packagingExcludes>
+            					WEB-INF,META-INF
+          				</packagingExcludes>
 			</configuration>
 		</plugin>
 		
