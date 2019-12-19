@@ -1,10 +1,20 @@
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
-   <groupId>Automation.Demo</groupId>
+   <groupId>Automation Group</groupId>
    <artifactId>AutomationDemo</artifactId>
-   <version>1</version>
+   <version>1.0.0</version>
    <packaging>war</packaging>
-	<name>Demo Deploy</name>
-        <url>http://localhost:9191/AutomationDemo/welcome.html</url>
-
+   <url>http://localhost:9191/AutomationDemo</url>
+   <build>
+	   <directory>${project.basedir}/target</directory>
+           <outputDirectory>${project.build.directory}/</outputDirectory>
+           <finalName>${project.artifactId}-${project.version}</finalName>
+	   <sourceDirectory>${project.basedir}/</sourceDirectory>
+           <reporting>
+    		<outputDirectory>${project.build.directory}/</outputDirectory>
+  	   </reporting>
+   </build>
 </project>
