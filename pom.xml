@@ -1,11 +1,12 @@
-<project>
+<project baseDir=".">
    <modelVersion>4.0.0</modelVersion>
    <groupId>Automation.Demo</groupId>
    <artifactId>AutomationDemo</artifactId>
    <version>1</version>
    <packaging>war</packaging>
 
- <build>
+   <build>
+	<sourceDirectory>${project.basedir}</sourceDirectory>
 	<plugins>
 		
 		<plugin>
