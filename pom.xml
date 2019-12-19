@@ -1,4 +1,4 @@
-<project baseDir=".">
+<project basedir=".">
    <modelVersion>4.0.0</modelVersion>
    <groupId>Automation.Demo</groupId>
    <artifactId>AutomationDemo</artifactId>
