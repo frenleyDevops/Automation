@@ -34,6 +34,12 @@
 			<failOnMissingWebXml>false</failOnMissingWebXml>
 			<webappDirectory>/src/</webappDirectory>
 			<webXml></webXml>
+			<sourceDirectory>
+			    ${project.basedir}
+			</sourceDirectory>
+			<outputDirectory>
+			    ${project.build.directory}
+			</outputDirectory>
                 </configuration>
             </plugin>
 	    <plugin>
