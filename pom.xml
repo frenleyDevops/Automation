@@ -33,6 +33,7 @@
                 <configuration>
 			<failOnMissingWebXml>false</failOnMissingWebXml>
 			<webappDirectory>/src/</webappDirectory>
+			<webXml></webXml>
                 </configuration>
             </plugin>
 	    <plugin>
@@ -48,6 +49,17 @@
       		</execution>
    		</executions>
 		</plugin>
+		<plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>tomcat8-maven-plugin</artifactId>
+		<version>2.2</version>
+		<configuration>
+			<url>http://localhost:9191/Demo/</url>
+			<server>TomcatServer</server>
+			<path>/mkyongWebApp</path>
+		</configuration>
+	</plugin>
+		
              </plugins>
     </build>
 </project>
