@@ -8,7 +8,10 @@
    <version>1.0.0</version>
    <packaging>war</packaging>
    <url>http://localhost:9191/AutomationDemo</url>
-   
+   <scm>
+		<url>https://github.com/frenleyDevops/Automation</url>
+		<connection>scm:git:git://github.com/frenleyDevops/Automation.git </connection>
+	</scm>
 <build>
         <plugins>
             <plugin>
